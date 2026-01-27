@@ -13,16 +13,16 @@
         pip install vatools
         # 处理SNV
         vcf-genotype-annotator \
-  /data/renweijie/data/HCC1395/SEQC-truth-variants-for-HCC1395-sample/high-confidence_sSNV_in_HC_regions_v1.2.vcf \
-       HCC1395 \ #将样本名设为 HCC1395，在执行 pvacseq run 命令时，参数中的 <sample_name> 必须完全等于 HCC1395
-       0/1 \
-       -o /data/renweijie/data/HCC1395/HCC1395_sSNV_with_GT.vcf
-       # 处理indel
-       vcf-genotype-annotator \
-  /data/renweijie/data/HCC1395/SEQC-truth-variants-for-HCC1395-sample/high-confidence_sINDEL_in_HC_regions_v1.2.vcf \
-       HCC1395 \
-       0/1 \
-       -o /data/renweijie/data/HCC1395/HCC1395_sINDEL_with_GT.vcf
+        /data/renweijie/data/HCC1395/SEQC-truth-variants-for-HCC1395-sample/high-confidence_sSNV_in_HC_regions_v1.2.vcf \
+        HCC1395 \ #将样本名设为 HCC1395，在执行 pvacseq run 命令时，参数中的 <sample_name> 必须完全等于 HCC1395
+        0/1 \
+        -o /data/renweijie/data/HCC1395/HCC1395_sSNV_with_GT.vcf
+        # 处理indel
+        vcf-genotype-annotator \
+        /data/renweijie/data/HCC1395/SEQC-truth-variants-for-HCC1395-sample/high-confidence_sINDEL_in_HC_regions_v1.2.vcf \
+        HCC1395 \
+        0/1 \
+        -o /data/renweijie/data/HCC1395/HCC1395_sINDEL_with_GT.vcf
 * Annotating your VCF with VEP
 
 
