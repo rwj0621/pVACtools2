@@ -1,5 +1,5 @@
 # pVACtools2
-## 创建conda环境并安装pVACtoosl
+## 创建conda环境并安装pVACtools
 * Python必须3.6以上版本
 
 
