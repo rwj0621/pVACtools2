@@ -1,5 +1,6 @@
 # [pVACtools](https://github.com/griffithlab/pVACtools)
 ## 创建conda环境并安装pVACtools
+[pVACtools 6.0.5 官方入门文档](https://pvactools.readthedocs.io/en/latest/getting_started.html)
 * Python必须3.6以上版本
 
 
