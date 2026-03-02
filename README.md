@@ -97,7 +97,7 @@
         chmod +x /data/renweijie/Software/netMHCpan-4.1/netMHCpan
         export PATH=$PATH:/data/renweijie/Software/netMHCpan-4.1
 #### 5. 运行pVACseq
-
+* SNV
 
         pvacseq run \
         /data/renweijie/data/HCC1395/SEQC-truth-variants-for-HCC1395-sample/VCF_prepped/HCC1395_sSNV_annotated.vcf \
@@ -110,6 +110,8 @@
         --percentile-threshold 2\
         -t 2 \
         --keep-tmp-files
+* INDEL
+  
 
         pvacseq run \
         /data/renweijie/data/HCC1395/SEQC-truth-variants-for-HCC1395-sample/VCF_prepped/HCC1395_sINDEL_annotated.vcf \
