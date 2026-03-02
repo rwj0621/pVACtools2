@@ -124,6 +124,12 @@
         --percentile-threshold 2 \
         -t 2 \
         --keep-tmp-files
+## VSCode断点调试
+### 1.把工具下载到服务器上的一个文件夹里（非conda）
+使用 unzip 命令将文件解压到当前目录：
+
+    unzip /data/renweijie/pVACtools/pVACtools-master.zip -d /data/renweijie/pVACtools/
+### 2.
         
 
         
