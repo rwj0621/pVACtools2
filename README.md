@@ -129,7 +129,11 @@
 使用 unzip 命令将文件解压到当前目录：
 
     unzip /data/renweijie/pVACtools/pVACtools-master.zip -d /data/renweijie/pVACtools/
-### 2.
+### 2.在 VS Code 侧边栏点击小虫子的标
+### 3.在 VS Code 中切换解释器（最关键）
+* 按下键盘 Ctrl + Shift + P
+* 输入并选择 Python: Select Interpreter
+* /data/renweijie/anaconda3/envs/pvactools/bin/python3.9 的项并点击选中
         
 
         
