@@ -137,6 +137,7 @@
 ## 运行三代工具检测出来的INS
 数据：HCC1395 ONT 工具：severus SV：INS
 路径：
+
         /data/renweijie/pVACtools/HCC1395_severus_ont_output/severus_somatic.only_ins.vcf
         
 
