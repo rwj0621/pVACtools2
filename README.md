@@ -134,6 +134,10 @@
 * 按下键盘 Ctrl + Shift + P
 * 输入并选择 Python: Select Interpreter
 * /data/renweijie/anaconda3/envs/pvactools/bin/python3.9 的项并点击选中
+## 运行三代工具检测出来的INS
+数据：HCC1395 ONT 工具：severus SV：INS
+路径：
+        /data/renweijie/pVACtools/HCC1395_severus_ont_output/severus_somatic.only_ins.vcf
         
 
         
